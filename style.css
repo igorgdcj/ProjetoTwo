@@ -1,0 +1,136 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
+}
+
+#cabecalho {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(56, 122, 56)), to(#002206));
+    
+}
+
+.ft-perfil {
+    border-radius: 50%;
+    border: solid #013109 5px;
+}
+
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h4, h5 {
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+.borda-redonda {
+    border: solid #013109 5px;
+    border-radius: 15px;
+}
+
+.espacamento {
+    padding-left: 15px;
+}
+
+a {
+    font-weight: bold;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #002206;
+    padding: 14px;
+    border-radius: 0px;
+}
+
+a:hover {
+    transition: 0.4s;
+    background-color:  rgb(56, 122, 56);
+    color: aliceblue;
+    border-radius: 0 20px 0 20px;
+}
+
+a:visited {
+    color: #002206;
+    background-color:  rgb(56, 122, 56);
+}
+
+.bgnav {
+    background-color: #002206;
+}
+
+em {
+    font-weight: bold;
+    color: #002206;
+}
+
+p {
+    font-size: 18px;
+}
+
+input, textarea, select {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(6, 163, 35, 0.137);
+    transition: 0.8s;
+    
+}
+
+input:hover, textarea:hover, select:hover {
+    background-color: white;
+}
+
+textarea {
+    height: 100px;
+}
+
+#btn-enviar {
+    transition: 0.7;
+    color: whitesmoke;
+    height: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #002206;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#btn-enviar:hover {
+    background-color: rgb(56, 122, 56);
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.infos {
+    list-style-type: none;
+}
+
+.links {
+    font-weight: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding: 0;
+    border-radius: 0px;
+}
+
+.links:hover {
+    transition: 0s;
+    background-color:  white;
+    color: black;
+    border-radius: 0px;
+}
+
+.links:visited {
+    color: black;
+    background-color: white;
+}
